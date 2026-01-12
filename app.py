@@ -24,5 +24,13 @@ def delete(index):
         notes.pop(index)
     return redirect("/note")
 
+@app.route("/edit/<int:index>", methods=["GET", "POST"])
+def edit(index):
+    if request.method == "POST":
+        new_task = request.form.get("task")
+        if new_task:
+            notes[index] = new_task
+        return redirect("/note")
+    return render_template("edit.html", task=notes[index], index=index)
 
 app.run(debug=True)
