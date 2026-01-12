@@ -17,13 +17,17 @@
     {% for note in notes %}
         <li>
             {{ note }}
+
+            <a href="/edit/{{ loop.index0 }}">
+                <button>Edit</button>
+            </a>
+
             <a href="/delete/{{ loop.index0 }}">
                 <button>Delete</button>
             </a>
         </li>
     {% endfor %}
 </ul>
-
 
 </body>
 </html>
