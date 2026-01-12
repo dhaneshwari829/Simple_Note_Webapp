@@ -13,7 +13,7 @@ A beginner-level web application that allows users to add and delete notes using
 2. HTML, CSS, JavaScript
 
 ## Purpose
-Built by a 3nd year IT Engineering student to learn basic full stack web development
+Built by a 2nd year IT Engineering student to learn basic full stack web development
 and understand how frontend and backend work together.
 
 ## Learning support
