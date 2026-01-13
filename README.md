@@ -23,4 +23,4 @@ AI tools were used only for learning guidance. All code was written and understo
 1. Download the code
 2. Install Python and Flask
 3. Run app.py
-4. Open browser at http://127.0.0.1:5000
+4. Open browser 
